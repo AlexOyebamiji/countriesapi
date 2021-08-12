@@ -1,1 +1,1 @@
-web: gunicorn countriesApi.wsgi --log-file -
+web: gunicorn worldcountries.wsgi --log-file -
