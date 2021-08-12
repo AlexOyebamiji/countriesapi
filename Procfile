@@ -1,1 +1,1 @@
-web: gunicorn worldcountries.wsgi
+web: gunicorn worldcountires.wsgi
