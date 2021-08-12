@@ -1,0 +1,1 @@
+web: gunicorn worldcountries.wsgi --log-file -
