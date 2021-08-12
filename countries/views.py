@@ -9,6 +9,6 @@ class CountriesList(generics.ListCreateAPIView):
     serializer_class = CountriesSerializer
 
 
-class CountriesDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Countries.objects.all()
-    serializer_class = CountriesSerializer
+# class CountriesDetail(generics.RetrieveUpdateDestroyAPIView):
+#     queryset = Countries.objects.all()
+#     serializer_class = CountriesSerializer
